@@ -1,5 +1,3 @@
-rom
-flask
 import Flask, render_template, request
 
 yf_app = Flask(__name__)
