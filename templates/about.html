@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="container py-5">
+    <h1>About YF™ Official App</h1>
+    <p>This application is built by Yamaan Faraz.</p>
+    <p>This app is the copy of my streamlit app.</p>
+    <h6>You can</h6>
+    <h6>Can submit information.</h6>
+
+    <div class="text-center mt-5">
+        <img src="{{ url_for('static', filename='img_3.png') }}"
+             alt="YF App Image"
+             style="max-width: 100%; height: auto; border-radius: 15px; border: 2px solid #0dcaf0;">
+    </div>
+</div>
+
+{% endblock %}
